@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #00695c;
+  font-family: "Lato", sans-serif;
+}
+
+.main-div {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-div {
+  /* width: 40vw; */
+  background-color: #1de9b6;
+  padding: 80px;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.inner-div h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: auto;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+.inner-div li {
+  font-size: 15px;
+  margin-top: 10px;
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+input {
+  cursor: pointer;
+}
+
+#submit,
+.btn {
+  padding: 8px;
+  outline: none;
+  display: block;
+  font-size: 10px;
+  font-size: 400;
+  margin: auto;
+  border: none;
+  text-transform: uppercase;
+  color: #80cbc4;
+  background-color: #64ffda;
+  margin-top: 10px;
+  border-radius: 1rem;
+}
+
+#submit:hover {
+  background-color: bisque;
+}
+
+#showScore {
+  background-color: #e8f5e9;
+  margin-top: 3rem;
+  padding: 3rem 4rem;
+  box-shadow: 0 1rem 1rem -o.7rem rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+}
+
+.scoreArea {
+  display: none;
+}
